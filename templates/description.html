@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3>{{item.name}}</h3>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 text-center">
+      <p>
+        {{item.description}}
+      </p>
+    </div>
+  <div class="col-md-2"></div>
+  </div>
+  <br />
+  <br />
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <a href="{{url_for('showCategory', category_id=category.id)}}">
+        <h5>Back to {{category.name}}</h5>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
