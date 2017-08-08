@@ -20,7 +20,7 @@ While in the VM, navigate to `/vagrant/item catalog`.
 
 Run the command `python project.py` to run the app.
 
-In a web browser, go to [http://localhost:8000](http://localhost:8000) to view the main page.
+In a web browser, go to [http://localhost:8000](http://localhost:8000) to view the main page. You can view a hosted version of this app at [https://intense-oasis-15937.herokuapp.com/](https://intense-oasis-15937.herokuapp.com/).
 
 Click on a category to view its items.
 
